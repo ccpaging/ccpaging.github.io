@@ -8,9 +8,8 @@ tags:  BLOG
 
 用 Markdown 写博客。不再纠结于软件、排版技术。专心用文字记录下数学学习中的点点滴滴。
 
-本博客运行于 [Jekyll](http://jekyllrb.com) @ [GitHub](http://github.com/ccpaging)，博客模板修改自：
-
-[Yonsm.NET](http://www.yonsm.net) 以及 [WebFrog](http://webfrogs.me/)
+本博客运行于 [Jekyll](http://jekyllrb.com) @ [GitHub](http://github.com/ccpaging)，
+博客模板修改自：[Yonsm.NET](http://www.yonsm.net) 以及 [WebFrog](http://webfrogs.me/)
 
 ## 折腾了一下
 
