@@ -1,3 +1,12 @@
+---
+date: 2014-02-22 01:42:00+00:00
+layout: post
+title: 学而时习之，不亦乐乎
+thread: 164
+categories: 博客
+tags:  BLOG
+---
+
 ## 学而时习之，不亦乐乎
 
 开始用 Markdown 写东西。不再纠结于 Office 软件的排版。专心用文字记录下数学学习中的点点滴滴。
