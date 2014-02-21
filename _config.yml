@@ -1,4 +1,4 @@
-markdown: Kramdown
+markdown: rdiscount
 permalink: /:title/
 url: http://ccpaging.github.io/
 name: ccpaging
