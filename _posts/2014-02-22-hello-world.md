@@ -19,17 +19,17 @@ tags:  BLOG
 * Add 百度统计
 * Set cnzz 统计
 * Set 多说留言
-* Add MathJAX 数学公式
+* Add Kramdown + MathJAX 数学公式
 
 ----
 
 ## 测试数学公式
 
-行内公式：$y=x^2+2\times x+1$
+行内公式：$y=x^2+2x+1$
 
 单独公式：
 
-$$y=x^2+2\times x+1$$
+$$\lim_{馅 \rightarrow 0} 包子=馒头 $$
 
 ## 测试语法高亮
 
