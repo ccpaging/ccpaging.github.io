@@ -2,13 +2,13 @@
 
 本博客运行于 [Jekyll](http://jekyllrb.com) @ [GitHub](http://github.com/ccpaging)，博客模板修改自以下博客模板：
 
-[Yonsm.NET](http://www.yonsm.net)
- [WebFrog](http://webfrogs.me/)
+[Yonsm.NET](http://www.yonsm.net) 以及 [WebFrog](http://webfrogs.me/)
 
 模板已经全部通用化，使用极其简单。
 
+----
 
-## 安装
+## Yonsm 博客模板的安装
 
 1. [Fork](https://github.com/Yonsm/NET/fork) [http://github.com/Yonsm/NET](http://github.com/Yonsm/NET)。
 
