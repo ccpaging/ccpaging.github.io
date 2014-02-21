@@ -1,13 +1,9 @@
 ---
 layout: post
-title: '博客迁移到 Jekyll @ GitHub - 你也可以fork在GitHub建站哦'
+title: '博客迁移到 Jekyll @ GitHub'
 category: 日志
 tags: 博客 GitHub Jekyll Markdown
 ---
-
-行内：$y=x^2+2\times x+1$
-
-$$y=x^2+2\times x+1$$
 
 在 Wopus 上的博客空间快到期了，我终于下决心迁移到 GitHub 上。好处就不多说了，看看[别人怎么说 Jekyll @ GitHub](http://www.besteric.com/2013/05/08/migrate-wordpress-to-jekyll/)吧。
 
@@ -36,3 +32,10 @@ void FixWordPressExportedXML(NSString *src, NSString *dst)
 		[data writeToFile:dst atomically:NO encoding:NSUTF8StringEncoding error:nil];
 	}
 }{% endhighlight %}
+
+
+## 测试数学公式
+行内：$y=x^2+2\times x+1$
+
+$$y=x^2+2\times x+1$$
+
