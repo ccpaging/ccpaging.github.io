@@ -1,0 +1,16 @@
+markdown: Kramdown
+permalink: /:title/
+url: http://ccpaging.github.io/
+name: ccpaging
+author: ccpaging
+qq: 765086618
+email: ccpaging@gmail.com
+duoshuo: ccpaging
+beian: 浙ICP备12026616号
+cnzz: 
+weibo: ccpaging
+github: ccpaging
+pygments: true
+safe: true
+paginate: 20
+about: "这里是 ccpaging 的个人博客，创建于 2014 年。<br /><br />切换到分类模可以更快地找到感兴趣的内容，欢迎观赏、建议、拍砖……"
