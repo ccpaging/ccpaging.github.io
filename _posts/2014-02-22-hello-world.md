@@ -14,12 +14,12 @@ tags:  BLOG
 
 [Yonsm.NET](http://www.yonsm.net) 以及 [WebFrog](http://webfrogs.me/)
 
-折腾了一下。使用或增加了以下内容：
+## 折腾了一下
 
-* 百度统计
-* cnzz 统计
-* 多说留言
-* MathJAX 数学公式
+* Add 百度统计
+* Set cnzz 统计
+* Set 多说留言
+* Add MathJAX 数学公式
 
 ----
 
