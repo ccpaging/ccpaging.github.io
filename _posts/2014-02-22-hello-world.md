@@ -6,9 +6,7 @@ categories: BLOG
 tags:  BLOG
 ---
 
-## 学而时习之，不亦乐乎
-
-开始用 Markdown 写东西。不再纠结于 Office 软件的排版。专心用文字记录下数学学习中的点点滴滴。
+用 Markdown 写博客。不再纠结于软件、排版技术。专心用文字记录下数学学习中的点点滴滴。
 
 本博客运行于 [Jekyll](http://jekyllrb.com) @ [GitHub](http://github.com/ccpaging)，博客模板修改自：
 
