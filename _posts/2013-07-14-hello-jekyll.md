@@ -5,6 +5,10 @@ category: 日志
 tags: 博客 GitHub Jekyll Markdown
 ---
 
+行内：$y=x^2+2\times x+1$
+
+$$y=x^2+2\times x+1$$
+
 在 Wopus 上的博客空间快到期了，我终于下决心迁移到 GitHub 上。好处就不多说了，看看[别人怎么说 Jekyll @ GitHub](http://www.besteric.com/2013/05/08/migrate-wordpress-to-jekyll/)吧。
 
 GitHub上找了个[模板](http://webfrogs.me/2012/12/20/use-jekyll/)，花了一整天折腾修改，分类、链接、评论、附件等终于都完美了，搜索引擎优化、站内搜索等还没完成。如果需要可以在 [GitHub](http://www.github.com/Yonsm) 上参考我的这个 [博客的完整代码](http://www.github.com/Yonsm/NET)。
