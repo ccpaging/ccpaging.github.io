@@ -2,7 +2,7 @@
 date: 2014-02-22 01:42:00+00:00
 layout: post
 title: 学而时习之，不亦乐乎
-categories: 博客
+categories: BLOG
 tags:  BLOG
 ---
 
