@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ <title>无标题文档</title>
+ <style type="text/css">
+ *{ margin:0; padding:0; font-size:12px; font-family:宋体; font-style:normal;}
+ .page_middle_content{position:relative; overflow:hidden; border:1px solid #333; margin:50px auto 0; width:596px; height:180px;}
+ .pmc_top_widget{height:34px; background:#eee; line-height:34px; font-size:14px;}
+ 
+ em{ margin:0 20px;}
+ b{ margin:0 5px;}
+ .this{ color:red}
+ .pmc_top_menu_layer{ height:140px; overflow:hidden; width:582px;}
+ .pmc_top_menu{ padding-bottom:10px; width:2000px; height:135px;position:absolute;}
+ .pmc_top_menu li{ list-style:none; float:left; width:82px; margin:10px 0 0 15px; display:inline; text-align:center;}
+ .pmc_top_menu li p{ margin-top:5px; color:#F36;}
+ 
+ ul li img{ width:80px; height:100px; border:1px dashed #939;}
+ </style>
+ <script type="text/javascript" src="http://w3school.com.cn/jquery/jquery.js"></script>
+ <script type="text/javascript">
+ 
+ var testVar = 1;
+ var page = 1;    //版页
+ var i = 6;       //每页显示图片个数
+
+ function rotatePlayer( toward )
+ {
+  var $ul = $( "#pmc-top-menu" );                                   //找到图片的展示区域模块
+  var $ul_width = $( ".pmc_top_menu_layer" ).width();                   //找到外围div的宽度
+  var $length = $( "#pmc-top-menu li" ).length;
+  var $page_count = Math.ceil( $length / i );
+  
+  if( !$ul.is( ":animated" ) )                   //判断图片展示区域是否处于动画阶段
+  {
+   switch( toward )
+   {
+    case 'right':
+     if( page == $page_count )
+     {
+      $ul.animate( {left:'0px'}, "slow" );      //可选参数 hide();或者fadeIn(),fadeOut()方法
+      page = 1;
+     }
+     else
+     {
+      $ul.animate( {left:'-=' + $ul_width}, "slow" );
+      page++;
+     }
+    break;
+    case 'left':
+     if( page == 1 )
+     {
+      $ul.animate( {left:'-=' + $ul_width * ( $page_count - 1 )}, "slow" );
+      page = $page_count;
+     }
+     else
+     {
+      $ul.animate( {left:'+=' + $ul_width}, "slow" );
+      page--;
+     }
+    break;
+   }
+  }
+  
+  $( ".pmc_top_widget b" ).eq( page - 1 ).addClass( "this" ).siblings().removeClass( "this" )
+ }
+ 
+ function test()
+ {
+  testVar++;
+  alert( testVar );
+ }
+ </script>
+ </head>
+ 
+ <body>
+ <div class="page_middle_content">
+  <div class="pmc_top_widget">
+   <b>1</b><b>2</b><b>3</b><span style = "cursor: pointer;" onclick = "test();">test</span>
+   <em class="left" onclick = "rotatePlayer( 'left' );">左</em><em class="rgt" onclick = "rotatePlayer( 'right' );">右</em>
+  </div>
+  <div class="pmc_top_menu_layer">
+  <ul id = "pmc-top-menu" class = "pmc_top_menu">
+   <li><p>图片1</p></li>
+   <li><p>图片2</p></li>
+   <li><p>图片3</p></li>
+   <li><p>图片4</p></li>
+   <li><p>图片5</p></li>
+   <li><p>图片6</p></li>
+   <li><p>图片7</p></li>
+   <li><p>图片8</p></li>
+   <li><p>图片9</p></li>
+   <li><p>图片10</p></li>
+   <li><p>图片11</p></li>
+   <li><p>图片12</p></li>
+   <li><p>图片13</p></li>
+   <li><p>图片14</p></li>
+   <li><p>图片15</p></li>
+   <li><p>图片16</p></li>
+   <li><p>图片17</p></li>
+   <li><p>图片18</p></li>
+  </ul>
+  </div>
+ </div>
+ </body>
+</html>

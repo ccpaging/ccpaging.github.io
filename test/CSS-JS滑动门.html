@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>一款小巧的Css+JS滑动门特效</title>
+<script language="javascript">
+function tabChange(obj,id)
+{
+var arrayli = obj.parentNode.getElementsByTagName("li"); //获取li数组
+var arrayul = document.getElementById(id).getElementsByTagName("ul"); //获取ul数组
+for(i=0;i<arrayul.length;i++)
+{
+if(obj==arrayli[i])
+{
+arrayli[i].className = "cli";
+arrayul[i].className = "";
+}
+else
+{
+arrayli[i].className = "";
+arrayul[i].className = "hidden";
+}
+}
+}
+</script>
+<style type="text/css">
+.tabbox {width:300px;height:250px;}
+.tabmenu {width:295px;height:28px;border-left:1px solid #CCC;border-top:1px solid #ccc;}
+.tabmenu ul {margin:0;padding:0;list-style-type: none;}
+.tabmenu li { text-align:center; float:left; display:block; width:58px; height:27px; overflow:hidden; background-color: #D2E8F7; line-height:27px; border-right:#ccc 1px solid; border-bottom:#ccc 1px solid; display:inline; font-size:12px;}
+.tabmenu .cli {text-align:center;float:left;display:block;width:58px;height:27px;overflow:hidden;background-color: #fff;line-height:27px;border-right:#ccc 1px solid;border-bottom:#fff 1px solid;display:inline;font-size:12px; cursor:pointer;}
+#tabcontent {width:294px;background-color:#fff;border-left:#CCC 1px solid;border-right:#CCC 1px solid;border-bottom:#CCC 1px solid;}
+#tabcontent ul {margin:0;padding:5px;list-style-type: none;}
+#tabcontent .hidden {display:none;}
+</style>
+</head>
+<body>
+<div class="tabbox">
+<div class="tabmenu">
+<ul>
+<li onmouseover="tabChange(this,'tabcontent')" class="cli">军事</li>
+<li onmouseover="tabChange(this,'tabcontent')">娱乐</li>
+<li onmouseover="tabChange(this,'tabcontent')">国内</li>
+<li onmouseover="tabChange(this,'tabcontent')">国外</li>
+<li onmouseover="tabChange(this,'tabcontent')">游戏</li>
+</ul>
+</div>
+<div id="tabcontent">
+<ul name="tabul">
+<li><a href="#">1111111111111111111111</a></li>
+<li><a href="#">1111111111111111111111</a></li>
+<li><a href="#">1111111111111111111111</a></li>
+<li><a href="#">1111111111111111111111</a></li>
+<li><a href="#">1111111111111111111111</a></li>
+<li><a href="#">1111111111111111111111</a></li>
+</ul>
+<ul class="hidden">
+<li><a href="#">2222222222222222222222</a></li>
+<li><a href="#">2222222222222222222222</a></li>
+<li><a href="#">2222222222222222222222</a></li>
+<li><a href="#">2222222222222222222222</a></li>
+<li><a href="#">2222222222222222222222</a></li>
+<li><a href="#">2222222222222222222222</a></li>
+</ul>
+<ul class="hidden">
+<li><a href="#">3333333333333333333333</a></li>
+<li><a href="#">3333333333333333333333</a></li>
+<li><a href="#">3333333333333333333333</a></li>
+<li><a href="#">3333333333333333333333</a></li>
+<li><a href="#">3333333333333333333333</a></li>
+<li><a href="#">3333333333333333333333</a></li>
+</ul>
+<ul class="hidden">
+<li><a href="#">4444444444444444444444</a></li>
+<li><a href="#">4444444444444444444444</a></li>
+<li><a href="#">4444444444444444444444</a></li>
+<li><a href="#">4444444444444444444444</a></li>
+<li><a href="#">4444444444444444444444</a></li>
+<li><a href="#">4444444444444444444444</a></li>
+</ul>
+<ul class="hidden">
+<li><a href="#">5555555555555555555555</a></li>
+<li><a href="#">5555555555555555555555</a></li>
+<li><a href="#">5555555555555555555555</a></li>
+<li><a href="#">5555555555555555555555</a></li>
+<li><a href="#">5555555555555555555555</a></li>
+<li><a href="#">5555555555555555555555</a></li>
+</ul>
+</div>
+</div>
+</body>
+</html>
