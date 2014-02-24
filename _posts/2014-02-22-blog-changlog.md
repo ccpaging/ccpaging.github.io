@@ -12,7 +12,13 @@ tags:  BLOG
 
 网页字体相关。导致数学公式显示过小。
 
-    .import url(http://fonts.googleapis.com/css?family=Cuprum);
+    @import url(http://fonts.googleapis.com/css?family=Cuprum);
+
+顺便 Disable 另外两个 Google 字体，降低网络消耗。
+
+    @import url(http://fonts.googleapis.com/css?family=Galdeano);
+    @import url(http://fonts.googleapis.com/css?family=Electrolize);
+
 
 获取内容：
     
