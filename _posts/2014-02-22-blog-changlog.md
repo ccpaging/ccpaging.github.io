@@ -12,8 +12,24 @@ tags:  BLOG
 
 网页字体相关。导致数学公式显示过小。
 
-> .import url(http://fonts.googleapis.com/css?family=Cuprum);
+    .import url(http://fonts.googleapis.com/css?family=Cuprum);
+
+获取内容：
+    @font-face {
+        font-family: 'Cuprum';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Cuprum'), local('Cuprum-Regular'), url(http://themes.googleusercontent.com/static/fonts/cuprum/v5/sp1_LTSOMWWV0K5VTuZzvQ.woff) format('woff');
+    }
 
 图片相关，设置了边框和阴影。
 
-> .content img{max-width:640px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
+    .content img{
+        max-width:640px;
+        display:block;
+        margin:4px auto;
+        -webkit-box-shadow:#999 1px 1px 4px;
+        -moz-box-shadow:#999 1px 1px 4px;
+        box-shadow:#999 1px 1px 4px;
+    }
+
