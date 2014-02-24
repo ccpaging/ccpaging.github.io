@@ -16,7 +16,7 @@ tags:  BLOG
 * Add 百度统计
 * Set cnzz 统计
 * Set 多说留言
-* Add Kramdown + MathJAX 数学公式。[Kramdown 快速参考](http://kramdown.gettalong.org/quickref.html)
+* Add Kramdown + MathJAX 数学公式。[Kramdown 快速参考](http://kramdown.gettalong.org/quickref.html)。
 
 ----
 
@@ -30,7 +30,7 @@ $$\lim_{馅 \rightarrow 0} 包子=馒头 $$
 
 ## 测试语法高亮
 
-使用 [Pygments](http://pygments.org/) ，[使用介绍在此](https://github.com/mojombo/jekyll/wiki/Liquid-Extensions)。
+使用 [Pygments](http://pygments.org/) ，[常用语法](http://pygments.org/docs/lexers/)。
 
 {% highlight c linenos %}
 
