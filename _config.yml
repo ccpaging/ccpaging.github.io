@@ -10,7 +10,7 @@ beian:
 cnzz: 1000283298
 weibo: 1259160330
 github: ccpaging
-pygments: true
+pygments: false
 safe: true
 paginate: 20
 auto: true
