@@ -16,7 +16,7 @@ tags:  BLOG
 * Add 百度统计
 * Set cnzz 统计
 * Set 多说留言
-* Add Kramdown + MathJAX 数学公式
+* Add Kramdown + MathJAX 数学公式。[Kramdown 快速参考](http://kramdown.gettalong.org/quickref.html)
 
 ----
 
