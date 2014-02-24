@@ -1,0 +1,51 @@
+在 Hexo 中完美使用 Mathjax 输出数学公式
+By 海马爸爸 @ 2014年2月15日 & 55 views
+常规方法
+
+在 Hexo 中使用 Mathjax 最常规的方法就是主题的 after_footer.ejs 里加入 (该 Mathjax 代码根据 Math StackExchange 所用修改)
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({"HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"], linebreaks: { automatic:true }, EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50) },
+        tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno",skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']},
+        TeX: {  noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } }, Macros: { href: "{}" } },
+        messageStyle: "none"
+    }); 
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+接下来的使用方法就和平常使用 Mathjax 一样了.
+
+不过这个方法有个令人不爽的缺点, 众所周知加载 Mathjax 的数学公式时是很消耗资源和时间的. 即使在网页中并没有生成公式时, 也会加载最基本 MathJax.js, 而这个文件也有 58KB. 为解决这个问题可参考如下进阶版.
+
+进阶版
+
+我们可以考虑只有在用到公式的页面才加载 Mathjax, 因此需要加载一些控制.
+
+首先将上面的代码写成一个 mathjax.ejs 文件放在 partial 目录下, 并且在 Hexo 的根目录的 _config.yml 里面加入 mathjax: true, 接下来在 after_footer.ejs 里加入
+
+<% if (page.mathjax){ %>
+<%- partial('mathjax') %>
+<% } %>
+在文章需要调用 Mathjax 时, 只需在 front-matter 前加上 mathjax: true 即可, 即
+
+title: 测试Mathjax
+date: 2014-2-14 23:25:23
+tags: Mathmatics
+categories: Mathjax
+author: 路箩筐
+mathjax: true
+---
+后记
+
+同样地, 根据此原理可以用来控制其它代码的输出.
+
+参考网页
+
