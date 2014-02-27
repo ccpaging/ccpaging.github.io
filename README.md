@@ -8,9 +8,9 @@
 
 ----
 
-## Yonsm 博客模板的安装
+## 博客模板的安装
 
-1. [Fork](https://github.com/Yonsm/NET/fork) [http://github.com/Yonsm/NET](http://github.com/Yonsm/NET)。
+1. [Fork](https://github.com/ccpaging/ccpaging.github.io/fork) [http://github.com/ccpaging/ccpaging.github.io](http://github.com/ccpaging/ccpaging.github.io)。
 
 2. 所有个人相关的配置都在 _config.yml 中，修改其中内容：
   * markdown: rdiscount ***（建议不修改）***
@@ -35,25 +35,7 @@
 
 所有安装操作均可在浏览器中线操作，不需要在本地做任何额外工作。
 
-## 迁移
-
-**如果你不需要迁移，请跳过此步骤**
-
-如果你之前在使用 WordPress，可以非常完美地导入到此博客中，分类、标签、评论都能完美迁移。
-
-1. 安装 多说 插件来转移评论。
-2. 安装 WP Slug 插件并批量编辑更新文章，以便生成英文的固定链接。
-3. 可以使用 exitwp 导入文章。
-4. 用文本编辑器批量替换所有导出文章中的 **wordpress_id:** 为 **thread:**，以便关联文章和多说评论。
-5. 如果以前的 WordPress 固定链接是 **/post/123** 这种格式，迁移后链接依然能正常工作（实际上是 404 页面做了转跳处理）。
-
-迁移需要在本地座比较多的准备工作，详细步骤略过，请仔细操作。
-
 ## 使用
 
 * 点击 Powered by 里面的 **Po** 撰写新文章；点击 **ed** 编辑当前页面。
 * 虽然可以用在线的编辑器来编辑和发布文章，但为了批量修改方便，还是推荐 Check Out 后修改。
-
-Yonsm
-
-2013-07-17
