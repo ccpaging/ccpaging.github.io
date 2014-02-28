@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="/media/css/highlight.css" />
     <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
     
-	{% if page.mathjax %}
-		{% include mathjax.html %}
+	{% if site.mathjax %}
+		{% if page.mathjax %}
+			{% include mathjax.html %}
+		{% endif %}
 	{% endif %}
   </head>
   <body>
