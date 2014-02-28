@@ -4,6 +4,7 @@ layout: post
 title: 学而时习之，不亦乐乎
 categories: 教育
 tags: 普及教育
+mathjax: true
 ---
 
 用 Markdown 写博客。不再纠结于软件、排版技术。专心用文字记录下数学学习中的点点滴滴。
