@@ -12,22 +12,9 @@
     <link rel="stylesheet" href="/media/css/highlight.css" />
     <script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script>
     
-    <!-- mathjax config similar to math.stackexchange -->
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            jax: ["input/TeX", "output/HTML-CSS"],
-            tex2jax: {
-                inlineMath: [ ['$', '$'] ],
-                displayMath: [ ['$$', '$$']],
-                processEscapes: true,
-                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-            },
-            messageStyle: "none",
-            "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] }
-        });
-    </script>
-
-    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+	{% if page.mathjax %}
+		{% include mathjax.html %}
+	{% endif %}
   </head>
   <body>
     <div id="container">
