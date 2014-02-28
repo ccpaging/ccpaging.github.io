@@ -2,8 +2,8 @@
 date: 2014-02-22 01:42:00+00:00
 layout: post
 title: 学而时习之，不亦乐乎
-categories: BLOG
-tags:  BLOG
+categories: 教育
+tags: 普及教育
 ---
 
 用 Markdown 写博客。不再纠结于软件、排版技术。专心用文字记录下数学学习中的点点滴滴。
