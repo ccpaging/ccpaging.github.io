@@ -13,7 +13,7 @@ layout: default
 <br/>
 <span>
 	<a 
-		{% if page.prev_log %}
+		{% if page.prev_log != null %}
 			href="{{ page.prev_log }}" class="pageNav"
 	    {% else %}
 			class="pageNavInvalid"
@@ -22,7 +22,7 @@ layout: default
 	/a>
 	&nbsp;&nbsp;&nbsp;
 	<a
-		{% if page.next_log %}
+		{% if page.next_log != null %}
 			href="{{ page.next_log }}" class="pageNav"
 	    {% else %}
 			class="pageNavInvalid"
