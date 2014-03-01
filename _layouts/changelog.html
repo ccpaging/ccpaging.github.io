@@ -13,23 +13,15 @@ layout: default
 <br/>
 <span>
 	{% if page.prev_log != null %}
-		<a href="{{ page.prev_log }}" class="pageNav">
-			上一篇
-		</a>
+		<a href="{{ page.prev_log }}" class="pageNav">上一篇</a>
     {% else %}
-		<a class="pageNavInvalid">
-			上一篇
-		</a>
+		<a class="pageNavInvalid">上一篇</a>
 	{% endif %}
 	&nbsp;&nbsp;&nbsp;
 	{% if page.next_log != null %}
-		<a href="{{ page.next_log }}" class="pageNav">
-			下一篇
-		</a>
+		<a href="{{ page.next_log }}" class="pageNav">下一篇</a>
     {% else %}
-		<a class="pageNavInvalid">
-		下一篇
-		</a>
+		<a class="pageNavInvalid">下一篇</a>
 	{% endif %}
 </span>
 </section>
