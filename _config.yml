@@ -1,5 +1,5 @@
 markdown: kramdown
-permalink: /:year/:month/:day/:title/
+permalink: /:year-:month-:day-:title/
 url: http://ccpaging.github.io/
 name: 中小学数学教育笔记 by ccpaging
 author: ccpaging
