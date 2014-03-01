@@ -12,25 +12,25 @@ layout: default
 <section align="right">
 <br/>
 <span>
-	<a 
-		{% if page.prev_log != null %}
-			href="{{ page.prev_log }}" class="pageNav"
-	    {% else %}
-			class="pageNavInvalid"
-		{% endif %}
-		>
-		上一篇
-	</a>
+	{% if page.prev_log != null %}
+		<a href="{{ page.prev_log }}" class="pageNav">
+			上一篇
+		</a>
+    {% else %}
+		<a class="pageNavInvalid">
+			上一篇
+		</a>
+	{% endif %}
 	&nbsp;&nbsp;&nbsp;
-	<a
-		{% if page.next_log != null %}
-			href="{{ page.next_log }}" class="pageNav"
-	    {% else %}
-			class="pageNavInvalid"
-		{% endif %}
-		>
+	{% if page.next_log != null %}
+		<a href="{{ page.next_log }}" class="pageNav">
+			下一篇
+		</a>
+    {% else %}
+		<a class="pageNavInvalid">
 		下一篇
-	</a>
+		</a>
+	{% endif %}
 </span>
 </section>
 {% include comments.html %}
