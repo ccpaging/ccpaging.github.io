@@ -30,23 +30,9 @@ layout: default
 <section align="right">
 <br/>
 <span>
-	<a 
-		{% if page.prev_log != null %}
-			href="{{ page.prev_log }}" class="pageNav"
-	    {% else %}
-			class="pageNavInvalid"
-		{% endif %}
-		>上一篇
-	</a>
+	<a {% if page.prev_log != null %} href="{{ page.prev_log }}" class="pageNav"{% endif %} {% unless page.previous %} class="pageNavInvalid" {% endunless %} >上一篇</a>
 	&nbsp;&nbsp;&nbsp;
-	<a 
-		{% if page.next_log != null %}
-			href="{{ page.next_log }}" class="pageNav"
-	    {% else %}
-			class="pageNavInvalid"
-		{% endif %}
-		>下一篇
-	</a>
+	<a {% if page.next %} href="{{ page.next.url }}" class="pageNav"{% endif %} {% unless page.next %} class="pageNavInvalid" {% endunless %} >下一篇</a>
 </span>
 </section>
 {% include comments.html %}
