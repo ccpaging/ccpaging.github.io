@@ -2,7 +2,7 @@
 date: 2014-02-24 00:16:00+00:00
 layout: post
 title: 人们为什么愿意纳税让别人家的孩子接受普及教育？
-categories: 教育
+categories: Edu
 tags: 普及教育
 mathjax: false
 ---
