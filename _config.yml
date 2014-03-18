@@ -1,24 +1,25 @@
 markdown: kramdown
 permalink: /:year-:month-:day-:title/
 url: http://ccpaging.github.io/
-name: 中小学数学教育笔记 by ccpaging
-author: ccpaging
-qq: 765086618
-email: ccpaging@gmail.com
-duoshuo: ccpaging
-beian: 
-cnzz: 1000283298
-baidu: 3F25f3fed051d9702ed66879558593b4ee
-weibo: 1259160330
-github: ccpaging
-google_analytics_id:
-gauges_id:
-
 exclude: ["CNAME", "test"]
+
 pygments: true
 safe: true
 paginate: 20
 auto: true
 mathjax: true
 
+name: 中小学数学教育笔记 by ccpaging
 about: "这里是 ccpaging 的中小学数学教育笔记，创建于 2014 年。<br /><br />切换到分类模可以更快地找到感兴趣的内容，欢迎观赏、建议、拍砖……"
+author: ccpaging
+github: ccpaging
+qq: 765086618
+email: ccpaging@gmail.com
+
+duoshuo: ccpaging
+beian: 
+cnzz: 1000283298
+baidu: 3F25f3fed051d9702ed66879558593b4ee
+weibo: 1259160330
+google_analytics_id: 
+gauges_id: 
