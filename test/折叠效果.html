@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" " http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=" http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<style>
+.hi {
+ height:200px;
+ background-color:#990033; 
+}
+.dd{
+ height:40px;
+ background-color:#396;
+}
+</style>
+<script language="JavaScript" type="text/javascript">
+var thisdiv
+function go(i){
+ var thisdiv2=document.getElementById("s"+i);
+ var sup=document.getElementById("sup"+i);
+ if(thisdiv!=undefined && thisdiv!=thisdiv2)thisdiv.style.display = "none";
+ if(thisdiv2.style.display == "none"){
+  thisdiv2.style.display = "block";
+  sup.innerHTML="-";
+  thisdiv=thisdiv2;
+ }
+ else{
+  thisdiv2.style.display = "none";
+ sup.innerHTML="+";
+ }
+}
+</script>
+</head><body>
+<div class="dd" id="d1" onclick="go(1)"><span id=sup1>+</span>菜单1<br />
+<div class="hi"style="display: none" id="s1">1111<br />111111<br />111<br />111</div>
+</div>
+<div class="dd" id="d2" onclick="go(2)"><span id=sup2>+</span>菜单2<br />
+<div class="hi"style="display: none" id="s2">2222<br />22222<br />22<br />22</div>
+</div>
+<div class="dd" id="d3" onclick="go(3)"><span id=sup3>+</span>菜单3<br />
+<div class="hi"style="display: none" id="s3">3333<br />33<br />333333</div>
+</div>
+<div class="dd" id="d4" onclick="go(4)"><span id=sup4>+</span>菜单4<br />
+<div class="hi"style="display: none" id="s4">4444444<br />44444</div>
+</div>
+<div class="dd" id="d5" onclick="go(5)"><span id=sup5>+</span>菜单5<br />
+<div class="hi"style="display: none" id="s5">5<br />55555<br />55<br />555</div>
+</div>
+</body>
+</html>
