@@ -68,8 +68,9 @@ header{padding:.5em 0;border-bottom: 1px solid #cccccc;}
 nav {
 	font-size:1.1em;
 	text-transform:uppercase;
-	float:right;
-	margin-right:-1em;
+	float:left;
+	margin-left:-15%;
+	padding-right:2px;
 	width:14%;
 	text-align:center;
 }
