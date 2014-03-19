@@ -37,7 +37,7 @@ blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:.5em 0;}
 #container {
 	max-width: 978px;
-	width: 80%;
+	width: 85%;
 	margin:2em auto;
 	display:block;
 	padding:0 2em;}
@@ -71,7 +71,7 @@ nav {
 	text-transform:uppercase;
 	float:left;
 	margin-left:-8em;
-	width:15%;
+	width:14%;
 	text-align:center;
 }
 nav a{display:block;padding:.7em 1em;color:#000000;}
