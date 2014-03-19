@@ -72,10 +72,20 @@ nav {
 	margin-left:-15%;
 	padding-right:2px;
 	width:14%;
-	text-align:center;
+	text-align:right;
 }
-nav a{display:block;padding:.7em 1em;color:#000000;}
-nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s linear;}
+
+nav a {
+	/*display:block;*/
+	padding:.7em 1em;
+	color:#000000;
+}
+nav a:hover {
+	background-color:#ff0000;
+	text-decoration:none;
+	color:#f9f9f9;
+	-webkit-transition:color .2s linear;
+}
 .post{padding:.5em 0em;}
 h1{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.6em;color:#000;}
 h2{font-family:"Cuprum","Hiragino Sans GB","Microsoft YaHei",sans-serif;font-size:1.4em;color:#111;}
