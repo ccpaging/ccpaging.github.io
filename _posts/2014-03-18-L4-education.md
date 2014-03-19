@@ -1,9 +1,9 @@
 ---
 date: 2014-03-18 12:40:55 +08:00
 layout: post
-title: 四年级：三角形两边长度的和大于第三边
+title: 教学，小学四年级：三角形两边长度的和大于第三边
 categories: L4
-tags: 普及教育
+tags: 教学
 mathjax: false
 ---
 
