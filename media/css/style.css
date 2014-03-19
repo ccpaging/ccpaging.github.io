@@ -196,13 +196,6 @@ background: #83BF73;
     padding-right: 20px;
   }
 
-  nav{
-	float:none;
-	margin-left:none;
-	width:4em;
-	text-align:center;
-  }
-
   .nav .show-on-mobiles {
     display: inline;
   }
