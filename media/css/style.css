@@ -164,3 +164,42 @@ background: #ff0000;
 color: white;
 background: #83BF73;
 }
+
+/* Responsive Stuff */
+@media screen and (max-width: 568px) {
+  /* Stack anything that isn’t full-width on smaller screens */
+  .main {
+    width: 100% !important;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* Sometimes, you just want to be different on small screens */
+  .center-on-mobiles {
+    text-align: center !important;
+  }
+  .hide-on-mobiles {
+    display: none !important;
+  }
+  .show-on-mobiles {
+    display: block !important;
+  }
+  a .show-on-mobiles {
+    display: inline !important;
+  }
+}
+
+@media (max-width: 830px){
+  .main {
+    width: 100% !important;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .nav .show-on-mobiles {
+    display: inline;
+  }
+  .nav .hide-on-mobiles {
+    display: none;
+  }
+}
