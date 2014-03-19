@@ -165,6 +165,10 @@ color: white;
 background: #83BF73;
 }
 
+.show-on-mobiles {
+  display: none;
+}
+
 /* Responsive Stuff */
 @media screen and (max-width: 568px) {
   /* Stack anything that isn’t full-width on smaller screens */
