@@ -66,17 +66,18 @@ blockquote p{margin:0;padding:.5em 0;}
 .pageNavInvalid{font-weight:bold;font-size:17px;color:#D0D0D0;}
 header{padding:.5em 0;border-bottom: 1px solid #cccccc;}
 nav {
+	font-family:"Electrolize",sans-serif;
 	font-size:1.1em;
 	text-transform:uppercase;
 	float:left;
-	margin-left:-15%;
-	padding-right:2px;
-	width:14%;
-	text-align:right;
+	margin-left:-8em;
+	max-width:6em;
+	width: 15;
+	text-align:center;
 }
 
 nav a {
-	/*display:block;*/
+	display:block;
 	padding:.7em 1em;
 	color:#000000;
 }
