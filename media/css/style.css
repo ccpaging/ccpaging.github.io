@@ -168,10 +168,14 @@ background: #83BF73;
 /* Responsive Stuff */
 @media screen and (max-width: 568px) {
   /* Stack anything that isn’t full-width on smaller screens */
-  #container {
+  .container {
     width: 100% !important;
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .content img{
+    align: left;
   }
 
   /* Sometimes, you just want to be different on small screens */
@@ -189,3 +193,16 @@ background: #83BF73;
   }
 }
 
+@media (max-width: 768px){
+  .nav ul {
+    text-align: right;
+  }
+}
+@media (max-width: 830px){
+  .nav .show-on-mobiles {
+    display: inline;
+  }
+  .nav .hide-on-mobiles {
+    display: none;
+  }
+}
