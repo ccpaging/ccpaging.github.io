@@ -41,7 +41,9 @@ mathjax: false
 
 ## 如何简单教授儿童批判性思维
 
-![](/album/2014-05-20-CriticalThinking-2.jpg) [点击看大图](/album/2014-05-20-CriticalThinking-2B.jpg)
+![](/album/2014-05-20-CriticalThinking-2.jpg)
+
+[点击看大图](http://ccpaging.github.io/album/2014-05-20-CriticalThinking-2B.jpg)
 
 ### 三个有用的词
 
