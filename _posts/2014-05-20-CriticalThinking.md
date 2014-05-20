@@ -43,7 +43,7 @@ mathjax: false
 
 ![](/album/2014-05-20-CriticalThinking-2.jpg)
 
-[点击看大图]</album/2014-05-20-CriticalThinking-2B.jpg?
+[点击看大图](/album/2014-05-20-CriticalThinking-2B.jpg)
 
 ### 三个有用的词
 
