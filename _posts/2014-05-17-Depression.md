@@ -1,7 +1,7 @@
 ---
 date: 2014-05-17 18:02:48 +0800
 layout: post
-title: 抑郁症
+title: 教会孩子们有益地“玩耍”以使他们保持健康远离抑郁症的困扰
 categories: Edu
 tags: 普及教育
 mathjax: false
