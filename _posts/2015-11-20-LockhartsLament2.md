@@ -4,7 +4,7 @@ layout: post
 title: 中学几何：邪恶的工具（二）
 categories: Edu
 tags: Lockharts
-mathjax: false
+mathjax: true
 ---
 
 我们来看看这个疯狂事迹的一些例子。我们先来看，这两条交叉的直线：
