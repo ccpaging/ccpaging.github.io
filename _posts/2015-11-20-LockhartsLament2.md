@@ -37,8 +37,9 @@ mathjax: true
 | 叙述 | 理由 |
 |-----|---|
 |1.m∠APC+m∠APD=180|1.角度加法公理(Angel Addition Postule)
-|  m∠BPS+m∠APD=180|
-|2.m∠APC+m∠APD=m∠BPD+m∠APD|2.代换(Substition Property)
+|&ensp;m∠BPS+m∠APD=180|
+|2.m∠APC+m∠APD|2.代换(Substition Property)
+|&ensp;=m∠BPD+m∠APD|
 |3.m∠APD=m∠APD|3.反身性(Reflexive Property of Equality)
 |4.m∠APC=m∠BPD|4.等式减法性质(Subtraction Property of Equality)
 |5.∠APC≌∠BPD|5.角度公理(Angle Measurement Postulate)
