@@ -36,13 +36,13 @@ mathjax: true
 
 | 叙述 | 理由 |
 |-----|---|
-|1.&ensp;m∠APC+m∠APD=180|&ensp;1.&ensp;角度加法公理(Angel Addition Postule)
-|&ensp;m∠BPS+m∠APD=180|
-|2.&ensp;m∠APC+m∠APD|&ensp;2.&ensp;代换(Substition Property)
+|1.&ensp;m∠APC+m∠APD=180&ensp;|1.&ensp;角度加法公理(Angel Addition Postule)
+|&ensp;&ensp;m∠BPD+m∠APD=180|
+|2.&ensp;m∠APC+m∠APD|2.&ensp;代换(Substition Property)
 |&ensp;=m∠BPD+m∠APD|
-|3.&ensp;m∠APD=m∠APD|&ensp;3.&ensp;反身性(Reflexive Property of Equality)
-|4.&ensp;m∠APC=m∠BPD|&ensp;4.&ensp;等式减法性质(Subtraction Property of Equality)
-|5.&ensp;∠APC≌∠BPD|&ensp;5.&ensp;角度公理(Angle Measurement Postulate)
+|3.&ensp;m∠APD=m∠APD|3.&ensp;反身性(Reflexive Property of Equality)
+|4.&ensp;m∠APC=m∠BPD|4.&ensp;等式减法性质(Subtraction Property of Equality)
+|5.&ensp;∠APC≌∠BPD|5.&ensp;角度公理(Angle Measurement Postulate)
 
 原本应该是由人以世界上的自然语言写出来的饶富机智及有趣的论证，我们却把它搞成这样沉闷、没有灵魂、
 官样文章的证明。层层堆砌成山！我们的要将这么直截了当的观察，弄成这么长的论文吗？老实说：你真的有
