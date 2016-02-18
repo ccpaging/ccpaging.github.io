@@ -1,5 +1,5 @@
 ---
-date: 2015-05-27 13:44:00+00:00
+date: 2015-05-27 13:44:00 +0800
 layout: post
 title: 数学灵魂的教育
 categories: Edu

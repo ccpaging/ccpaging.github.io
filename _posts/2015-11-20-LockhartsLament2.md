@@ -1,5 +1,5 @@
 ---
-date: 2015-11-20 15:12:00+00:00
+date: 2015-11-20 15:12:00 +0800
 layout: post
 title: 中学几何：邪恶的工具（二）
 categories: Edu

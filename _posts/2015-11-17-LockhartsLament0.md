@@ -1,5 +1,5 @@
 ---
-date: 2015-11-17 15:23:00+00:00
+date: 2015-11-17 15:23:00 +0800
 layout: post
 title: 《一个数学家的叹息》简介
 categories: Edu
