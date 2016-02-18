@@ -3,8 +3,8 @@ date: 2015-02-18 22:41:28+00:00
 layout: post
 title: 数学教学小CASE
 categories: Edu
-tags: Lockharts
-mathjax: yes
+tags: 普及教育
+mathjax: false
 ---
 
 ## 梨树3棵，桃树5棵，梨树比桃树少几分之几？桃树比梨树多几分之几？
