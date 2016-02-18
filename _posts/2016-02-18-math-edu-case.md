@@ -1,5 +1,5 @@
 ---
-date: 2015-02-18 22:41:28+00:00
+date: 2016-02-18 22:41:28+00:00
 layout: post
 title: 数学教学小CASE
 categories: Edu
