@@ -50,12 +50,12 @@ blockquote p{margin:0;padding:.5em 0;}
 }
 #tag_cloud{margin-bottom: 1em;}
 #tag_cloud a:hover{color:#333333 !important;text-decoration:none;}
-.listing-item,.listing-seperator{color:#333333;list-style-type:none;}
+.listing-item,.listing-seperator{list-style-type:none;color:#333;}
 .listing-item a{
 	padding:.2em 1em;
 }
 .listing-item a:hover{
-	color:#000000;
+	color:#000;
 }
 
 .listing-item time{color:#999999;}
