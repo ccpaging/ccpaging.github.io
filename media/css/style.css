@@ -52,6 +52,7 @@ blockquote p{margin:0;padding:.5em 0;}
 #tag_cloud a:hover{color:#333333 !important;text-decoration:none;}
 .listing-item,.listing-seperator{color:#333;}
 .listing-item a{
+	color:#333;
 	padding:.2em 1em;
 }
 .listing-item a:hover{
