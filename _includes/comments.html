@@ -1,3 +1,21 @@
+{% if site.gitment %}
+	<div id="container"></div>
+
+	<script src="/media/js/gitment.browser.js"></script>
+	<script>
+		const gitment = new Gitment({
+		  id: '{{ site.author }}', // optional
+		  owner: '{{ site.github }}',
+		  repo: 'gitment',,
+		  oauth: {
+		    client_id: '{{ site.oauth_id }}',
+		    client_secret: '{{ site.oauth_secret }}',
+		  },
+		})
+
+		gitment.render('comments')
+	</script>
+{% endif %}
 {% if site.duoshuo %}
 	{% if page.thread %}
 	<div class="ds-thread" data-thread-key="{{ page.thread }}" data-url="{{ site.url }}{{ page.url }}" data-title="{{ page.title }}" />
