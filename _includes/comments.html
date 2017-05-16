@@ -1,12 +1,12 @@
 {% if site.gitment %}
-	<div id="container"></div>
-
+	<div id="comments"></div>
+	<link rel="stylesheet" href="/media/css/gitment.css">
 	<script src="/media/js/gitment.browser.js"></script>
 	<script>
 		const gitment = new Gitment({
 		  id: '{{ site.author }}', // optional
 		  owner: '{{ site.github }}',
-		  repo: 'gitment',
+		  repo: '{{ site.author }}.github.io',
 		  oauth: {
 		    client_id: '{{ site.oauth_id }}',
 		    client_secret: '{{ site.oauth_secret }}',
