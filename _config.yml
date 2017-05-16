@@ -3,7 +3,7 @@ permalink: /:year-:month-:day-:title/
 url: http://ccpaging.github.io/
 exclude: ["CNAME", "test"]
 
-pygments: true
+highlighter: rouge
 safe: true
 paginate: 20
 auto: true
